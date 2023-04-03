@@ -33,7 +33,7 @@ public class RandomUtils {
 
 
     static Date fakerDate = faker.date().birthday();
-    static SimpleDateFormat sdfDay = new SimpleDateFormat("d", Locale.ENGLISH);
+    static SimpleDateFormat sdfDay = new SimpleDateFormat("dd", Locale.ENGLISH);
     static SimpleDateFormat sdfMonth = new SimpleDateFormat("MMMM", Locale.ENGLISH);
     static SimpleDateFormat sdfYear = new SimpleDateFormat("y", Locale.ENGLISH);
 
